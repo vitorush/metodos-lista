@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		//1º e 2º
+		const numero = [] //Criei uma lista vazia e em seguida adicionei 10 elementos.
+		numero.push(1, 5, 3, 8, 2, 6, 7, 4, 9, 10);
+		console.log(numero);
+
+		//3º
+		const carros = ["lamborghini", "ferrari", "Koegnigsegg", "Nissan", "Pagani"] //Criei outra lista para remover e organizar os elementos.
+		carros.pop();
+		carros.pop();
+		carros.pop();
+		console.log(carros)
+
+		//4º
+		carros.sort(); 	//Organizei a lista "carros" em ordem alfanumérico.
+		console.log(carros)
+
+		//5º
+		const numeros = [20, 20, 20, 7] 							//total vai ser um acumulador, e n a quantidade que há no elemento, como o valor inicial é zero
+		const soma = numeros.reduce((total, n) => total + n, 0);	// e o índice 0 é 20, vai pro acumulador, ou seja 0+20, e assim sucessivamente.
+		console.log(soma);
+
+		//6º
+		const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 	//O método forEach percorre todo o Array e imprime
+		numbers.forEach((numbers) => { 						//um texto predefinido com os elementos da lista em seguida.
+			console.log("O número é " + numbers);
+		});
+
+		//7º
+		const money = [100, 200, 1000, 1300, 300] 		//O método filter vai criar um novo Array
+		const maiores = money.filter((n) => n > 150); 	//com todos os elementos maiores que 150.
+		console.log(maiores);
+
+		//8º
+		const coins = [50, 100, 150, 200, 250]		//Segue a mesma lógica do método filter, porém pega
+		const result = coins.find((n) => n > 160);  //apenas um resultado, no caso vai pegar o primeiro resultado maior que 160.
+		console.log(result);
+
+		//9º
+		const quantidade = ["Free Fire", "Minecraft", "Roblox"] //O método length apenas conta a quantidade de 
+		console.log(quantidade.length);							//elemetos que o array tem.
+
+		//10º
+		const armas = ["MP40", "AK-47", "M4A1", "AN94", "THOMPSON"] //O método splice serve para remover, substituir, ou adicionar um novo elemento
+		armas.splice(2, 1, "XM8");									//.splice(Índice, quantidadeRemover, Adicionar) o índice serve para selecionar o que eu quero remover
+		console.log(armas);											//a quantidadeRemover serve para indicar quantos elementos quero remover, e o Adicionar no caso de querer adicionar um novo elemento.
+
+
+		//11º
+		const alunos = [	//Criei um array que representa um aluno com propriedades.
+			{ nome: "Manu", idade: 15, curso: "INF" },
+			{ nome: "Alexandre", idade: 17, curso: "INF" },
+			{ nome: "João Vitor", idade: 16, curso: "INF" },
+			{ nome: "Guilherme", idade: 17, curso: "INF" },
+			{ nome: "Emanuel", idade: 16, curso: "INF" },
+			{ nome: "Levy", idade: 16, curso: "INF" },
+			{ nome: "Kenedy", idade: 18, curso: "INF" },
+			{ nome: "Juan", idade: 16, curso: "INF" },
+			{ nome: "Carla", idade: 15, curso: "INF" },
+			{ nome: "Leison", idade: 16, curso: "INF" }
+			]
+	</script>
+</body>
+
+</html
