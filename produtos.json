@@ -1,0 +1,13 @@
+[
+    {"marca": "Ferrari", "codigo": 676907, "modelo": "SF90"},
+    {"marca": "Lamborghini", "codigo": 634536, "modelo": "Veneno"},
+    {"marca": "Porsche", "codigo": 676654, "modelo": "GT3-RS"},
+    {"marca": "BMW", "codigo": 633444, "modelo": "M3 G80"},
+    {"marca": "McLaren", "codigo": 124633, "modelo": "Senna-GTR"},
+    {"marca": "Toyota", "codigo": 389562, "modelo": "Supra-MK5"},
+    {"marca": "Nissan", "codigo": 937452, "modelo": "Skyline-GTR(R35)"},
+    {"marca": "Mazda", "codigo": 676907, "modelo": "RX-7"},
+    {"marca": "Rolls-Royce", "codigo": 879439, "modelo": "Phantom"},
+    {"marca": "Ford", "codigo": 938453, "modelo": "Mustang-Shelby"}
+
+]
